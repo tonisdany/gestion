@@ -1,3 +1,4 @@
+// Selección de elementos HTML
 const inicioSesion = document.getElementById('inicio-sesion');
 const registro = document.getElementById('registro');
 const formLogin = document.getElementById('form-login');
@@ -85,5 +86,3 @@ formLogin.addEventListener('submit', (event) => {
     errorLogin.style.display = 'block';
   }
 });
-
- 
