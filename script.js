@@ -11,6 +11,13 @@ const gestoraSection = document.getElementById('gestora');
 // Recuperar usuarios registrados del localStorage
 let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
 
+// Añadir el administrador predeterminado si no existe
+const adminPredeterminado = { usuario: 'admin', password: 'tonisdany861003*', role: 'admin' };
+if (!usuarios.some(user => user.usuario === 'admin')) {
+  usuarios.push(adminPredeterminado);
+  guardarUsuarios();
+}
+
 // Función para guardar usuarios en localStorage
 function guardarUsuarios() {
   localStorage.setItem('usuarios', JSON.stringify(usuarios));
@@ -79,3 +86,4 @@ formLogin.addEventListener('submit', (event) => {
   }
 });
 
+ 
