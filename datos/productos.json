@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Blusa Floral",
+    "precio": 15.00,
+    "imagen": "imagenes/blusa_floral.jpg",
+    "descripcion": "Blusa cómoda con estampado floral, ideal para cualquier ocasión."
+  },
+  {
+    "nombre": "Pantalón Deportivo",
+    "precio": 20.00,
+    "imagen": "imagenes/pantalon_deportivo.jpg",
+    "descripcion": "Pantalón elástico ideal para entrenamientos y actividades casuales."
+  },
+  {
+    "nombre": "Bolso Elegante",
+    "precio": 25.00,
+    "imagen": "imagenes/bolso_elegante.jpg",
+    "descripcion": "Bolso elegante con gran espacio interior y diseño moderno."
+  }
+]
